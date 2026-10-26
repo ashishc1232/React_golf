@@ -1,0 +1,25 @@
+.address {
+  background-color: chartreuse;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  height: 50px;
+  width: 120px;
+  /* background-color: black;
+  color: white; */
+  font-weight: bold;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: chartreuse;
+  border-radius: 50%;
+}
