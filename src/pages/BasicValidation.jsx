@@ -42,7 +42,8 @@ export default function BasicValidation() {
                 <div>
                     <input type="password" name='password' value={formData.password} onChange={handleChange} placeholder='enter your password' />
                 </div><br />
-                <button onClick={()=>setTheme(theme=="white"?"black":"white")} style={{backgroundColor:theme,color:theme}} type='submit'>Submit</button>
+                <button onClick={()=>setTheme(theme=="white"?"black":"white")}
+                 style={{backgroundColor:theme,color:theme}} type='submit'>Submit</button>
             </form>
         </div>
     )

@@ -34,6 +34,7 @@ import { useState } from "react";
 import { ThemeContext } from "./context/ThemeContext";
 import BasicValidation from "./pages/BasicValidation";
 import UnControlled from "./pages/UnControlled";
+import MultiCount from "./pages/MultiCount";
 
 // import React from 'react';
 
@@ -103,10 +104,12 @@ export default function App() {
       {/* <Forms/> */}
       {/* <UnControlled/> */}
       <ThemeContext value={{theme,setTheme}}>
-        <button style={{backgroundColor:theme}} onClick={() => setTheme(theme === "black" ? "white" : "black")}>
+        <button style={{backgroundColor:theme}} onClick={() => 
+          setTheme(theme === "black" ? "white" : "black")}>
           click here {theme}
         </button>
-        <BasicValidation/>
+        {/* <BasicValidation/> */}
+        <MultiCount/>
       </ThemeContext>
     </>
 
