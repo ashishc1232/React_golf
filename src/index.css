@@ -23,3 +23,7 @@ button {
   background-color: chartreuse;
   border-radius: 50%;
 }
+.error{
+  color: red;
+  font-weight: bold;
+}
