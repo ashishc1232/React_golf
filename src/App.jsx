@@ -37,6 +37,7 @@ import UnControlled from "./pages/UnControlled";
 import MultiCount from "./pages/MultiCount";
 import AdvanceValidation from "./pages/AdvanceValidation";
 import GroupUI from "./pages/GroupUI";
+import FetchData from "./pages/FetchData";
 
 // import React from 'react';
 
@@ -114,7 +115,8 @@ export default function App() {
         {/* <MultiCount/> */}
       </ThemeContext>
       {/* <AdvanceValidation/> */}
-      <GroupUI/>
+      {/* <GroupUI/> */}
+      <FetchData/>
     </>
 
   )
